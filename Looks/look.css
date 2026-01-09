@@ -1,0 +1,39 @@
+ body {
+      background: linear-gradient(135deg, #84cfe0, #abccff);
+    }
+
+    .calc-card {
+      background: linear-gradient(160deg, #f5fc90, #d1fa61);
+      border-radius: 16px;
+    }
+
+    .calc-title {
+      background: linear-gradient(90deg, #2563eb, #3b82f6);
+      color: white;
+      border-radius: 8px;
+      padding: 8px 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      display: inline-block;
+    }
+
+    .form-control,
+    .form-select {
+      border-radius: 10px;
+    }
+
+    .btn-calc {
+      background: linear-gradient(90deg, #ef4444, #dc2626);
+      border: none;
+      border-radius: 10px;
+    }
+
+    .btn-calc:hover {
+      opacity: 0.9;
+    }
+
+    .result-box {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: inset 0 0 8px rgba(0,0,0,0.08);
+    }
